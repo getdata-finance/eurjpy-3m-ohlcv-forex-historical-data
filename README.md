@@ -1,6 +1,6 @@
 # EURJPY 3m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_085_922_rows-blue)](https://getdata.finance/datasets/eurjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eurjpy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_087_261_rows-blue)](https://getdata.finance/datasets/eurjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eurjpy)
 
 ### -> [**Download the full EURJPY dataset on getdata.finance**](https://getdata.finance/datasets/eurjpy)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3m OHLCV** for **Euro / Japanese Yen** (Forex)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eurjpy) · **3,085,922** `3m` rows in the full archive
+- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eurjpy) · **3,087,261** `3m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3m` sample updated in sync
 
-> **Sample on GitHub** · `EURJPY_3m.csv` (63,320 rows, `2026-03-23` -> `2026-09-23`, 6.08 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurjpy)** — **3,085,922** `3m` rows (full `1m`: 9,199,932), **11 timeframes**, `2001-11-28` -> `2026-09-23`.
+> **Sample on GitHub** · `EURJPY_3m.csv` (63,219 rows, `2026-03-26` -> `2026-09-25`, 6.03 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurjpy)** — **3,087,261** `3m` rows (full `1m`: 9,199,932), **11 timeframes**, `2001-11-28` -> `2026-09-25`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Euro / Japanese Yen · Forex | Euro / Japanese Yen · Forex |
 | Timeframes | `3m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3m rows | 63,320 | **3,085,922** |
-| Size | 6.08 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eurjpy) |
-| Period | `2026-03-23` -> `2026-09-23` | `2001-11-28` -> `2026-09-23` |
+| 3m rows | 63,219 | **3,087,261** |
+| Size | 6.03 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eurjpy) |
+| Period | `2026-03-26` -> `2026-09-25` | `2001-11-28` -> `2026-09-25` |
 | File | `EURJPY_3m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eurjpy) |
 | Coverage report | — | [EURJPY coverage](https://getdata.finance/coverage/eurjpy) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`EURJPY_3m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-23T02:30:00+00:00 | 186.699 | 186.803 | 186.698 | 186.755 | 1445 |
-| 2026-03-23T02:33:00+00:00 | 186.755 | 186.758 | 186.707 | 186.723 | 1284 |
-| 2026-03-23T02:36:00+00:00 | 186.723 | 186.726 | 186.698 | 186.705 | 983 |
-| 2026-03-23T02:39:00+00:00 | 186.705 | 186.746 | 186.689 | 186.74 | 1029 |
-| 2026-03-23T02:42:00+00:00 | 186.74 | 186.763 | 186.736 | 186.76 | 856 |
+| 2026-03-26T02:30:00+00:00 | 186.908 | 186.918 | 186.88 | 186.882 | 599 |
+| 2026-03-26T02:33:00+00:00 | 186.882 | 186.891 | 186.867 | 186.868 | 814 |
+| 2026-03-26T02:36:00+00:00 | 186.868 | 186.875 | 186.843 | 186.854 | 734 |
+| 2026-03-26T02:39:00+00:00 | 186.854 | 186.869 | 186.835 | 186.862 | 691 |
+| 2026-03-26T02:42:00+00:00 | 186.862 | 186.868 | 186.841 | 186.862 | 507 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-23T01:48:00+00:00 | 180.329 | 180.33 | 180.291 | 180.305 | 961 |
-| 2026-09-23T01:51:00+00:00 | 180.305 | 180.312 | 180.291 | 180.295 | 1255 |
-| 2026-09-23T01:54:00+00:00 | 180.295 | 180.302 | 180.26 | 180.272 | 1388 |
-| 2026-09-23T01:57:00+00:00 | 180.272 | 180.273 | 180.245 | 180.258 | 940 |
-| 2026-09-23T02:00:00+00:00 | 180.258 | 180.287 | 180.252 | 180.275 | 725 |
+| 2026-09-25T20:45:00+00:00 | 179.182 | 179.206 | 179.162 | 179.206 | 366 |
+| 2026-09-25T20:48:00+00:00 | 179.206 | 179.223 | 179.193 | 179.199 | 395 |
+| 2026-09-25T20:51:00+00:00 | 179.199 | 179.221 | 179.191 | 179.193 | 296 |
+| 2026-09-25T20:54:00+00:00 | 179.193 | 179.225 | 179.156 | 179.157 | 537 |
+| 2026-09-25T20:57:00+00:00 | 179.157 | 179.165 | 179.139 | 179.139 | 397 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **EURJPY** archive on **[getdata.finance](https://getdata.finance/datasets/eurjpy)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **3,085,922** rows at `3m`, plus all other timeframes in the same ZIP.
+The complete **EURJPY** archive on **[getdata.finance](https://getdata.finance/datasets/eurjpy)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **3,087,261** rows at `3m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full EURJPY dataset on getdata.finance](https://getdata.finance/datasets/eurjpy)**
 
